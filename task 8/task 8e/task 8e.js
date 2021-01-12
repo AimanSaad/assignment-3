@@ -1,6 +1,4 @@
-var ser = [];
-for (var i = 2; i < 21; i+2) {
-    ser[i] = i ;
-    document.write(ser[i] + "K ");
-
-}
+var series = [];
+for (var i = 1; i < 11; i++) {
+    series[i] = i * 2;
+document.write(series[i] + "k "); }
